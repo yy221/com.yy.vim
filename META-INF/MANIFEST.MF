@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Vim
+Bundle-SymbolicName: com.yy.vim; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: YY
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.eclipse.jface.text,
+ org.eclipse.ui.editors,
+ org.eclipse.core.resources
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: org.eclipse.ui.part
